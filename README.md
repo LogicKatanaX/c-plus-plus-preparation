@@ -40,6 +40,26 @@ The goal is simple: solve core programming problems consistently and build probl
 
 ---
 
+## Current Progress
+
+| Track | Progress | Practice covered |
+| --- | --- | --- |
+| Number Logic | 14 exercises | Fibonacci through number classification |
+| Pattern Printing | 12 exercises | Basic, hollow, aligned, diamond, and butterfly patterns |
+| Functions | 8 exercises | Reusable functions, checks, factorial, Fibonacci, and calculator |
+| Arrays | 15 exercises | Array operations, searching, sorting, rotation, and Two Sum |
+| Striver's Patterns | 22 exercises | Pattern practice, currently working through `19.cpp` |
+
+**Total completed:** 71 C++ practice files across the main numbered series and Striver's Pattern track.
+
+### Recent Milestone
+
+- Completed the main numbered series from `10` to `65`.
+- Practiced core number logic, functions, arrays, and pattern-printing problems.
+- Currently strengthening pattern recognition with Striver's Pattern problems.
+
+---
+
 ## Quick Start
 
 ### Compile
@@ -84,7 +104,7 @@ Jump_to_leetcode/        -> Transition-style problems
 
 1. Add input constraints and edge-case handling in each file.
 2. Add time and space complexity comments.
-3. Group files into topic folders for easier navigation.
+3. Continue the remaining Striver's Pattern problems in sequence.
 4. Add one LeetCode-style problem after every 3 basics.
 
 ---

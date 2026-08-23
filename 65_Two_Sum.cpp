@@ -6,8 +6,8 @@ void finde(int arr[],int element,int size){
     int end=size-1;
     while(start<end){
         if(element==arr[start]+arr[end]){
-            cout <<start<<" ";
-            cout <<end<<"\n";
+            cout <<arr[start]<<" ";
+            cout <<arr[end]<<"\n";
             start++;
             end--;
         }
