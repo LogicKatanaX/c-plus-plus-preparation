@@ -14,7 +14,7 @@ int main(){
     }
     int number;
     for(int i=0;i<n;i++){
-        cout<<"Enter number";cin>>number;
+        cout<<"Enter number:";cin>>number;
         cout<<hash[number]<<endl;
     }
 

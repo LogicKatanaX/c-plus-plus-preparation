@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<num;i++){
         cout<<" Roll Number of Students:";cin>>roll;
         cout<<" Marks of Students:";cin>>marks;
-        a.emplace_back(make_pair(roll,marks));
+        a.emplace_back(roll,marks);
 
     }
 

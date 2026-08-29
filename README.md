@@ -58,6 +58,13 @@ The goal is simple: solve core programming problems consistently and build probl
 - Practiced core number logic, functions, arrays, and pattern-printing problems.
 - Currently strengthening pattern recognition with Striver's Pattern problems.
 
+### Weekly Update: August 24-28, 2026
+
+- Practiced hashing and frequency counting with arrays.
+- Worked through LeetCode problems including Two Sum, palindrome, reverse integer, Fibonacci, and largest number.
+- Improved recursion practice by writing Fibonacci and factorial solutions with functions.
+- Next target: finish and review the current LeetCode and hashing solutions with edge cases and complexity analysis.
+
 ---
 
 ## Quick Start
