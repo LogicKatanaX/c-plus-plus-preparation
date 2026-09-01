@@ -65,6 +65,27 @@ The goal is simple: solve core programming problems consistently and build probl
 - Improved recursion practice by writing Fibonacci and factorial solutions with functions.
 - Next target: finish and review the current LeetCode and hashing solutions with edge cases and complexity analysis.
 
+### Latest Update: August 29 - September 1, 2026
+
+**Hashing Track (New)**
+- Implemented unordered_map for efficient key-value operations
+- Solved Two Sum problem using hash maps for O(n) time complexity
+- Practiced with hash1, hash2, hash3 problems
+
+**Searching & Sorting Track (New)**
+- Bubble sort implementation and optimization techniques
+- Selection sort with various approaches
+- Move zeros algorithm (rearranging array elements)
+
+**LeetCode Progress**
+- Enhanced contains_duplicate solution with multiple approaches
+- Continued building interview-ready problem-solving patterns
+
+**Focus Areas:**
+- Hash-based data structures for efficient problem-solving
+- Sorting algorithms with time/space complexity analysis
+- Array manipulation and rearrangement techniques
+
 ---
 
 ## Quick Start

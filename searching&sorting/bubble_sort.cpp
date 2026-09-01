@@ -11,14 +11,13 @@ int main(){
         a.emplace_back(temp);
     }
 
-    for(int i=0;i<a.size()-1;i++){
-        int mini =i;
-        for (int j =i;j<a.size();j++){
-            if (a[j]<a[mini]){
-                mini=j;
+    for(int i=a.size()-1;i>0;i--){
+        for(int j=0;j<i;j++){
+            if(a[j]>a[j+1]){
+                swap(a[j],a[j+1]);
             }
-            swap(a[mini],a[i]);
         }
+        
     }
     cout <<"Sorted Array: \t";
     for(int x:a){
