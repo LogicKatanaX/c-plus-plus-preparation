@@ -5,7 +5,12 @@ int main() {
     vector<int> a;
     int size;
     cout << "Size: ";
-    cin >> size;
+    if (!(cin >> size) || size < 0) {
+        cerr << "Size must be a non-negative integer.\n";
+        return 1;
+    }
+
+    a.reserve(size);
 
     while (size--) {
         int temp;
@@ -13,7 +18,7 @@ int main() {
         a.emplace_back(temp);
     }
 
-    int next_non_zero = 0;
+    size_t next_non_zero = 0;
     for (int value : a) {
         if (value != 0) {
             a[next_non_zero++] = value;
@@ -24,6 +29,7 @@ int main() {
         a[next_non_zero++] = 0;
     }
 
+    cout << "After moving zeros: ";
     for (int value : a) {
         cout << value << ' ';
     }
