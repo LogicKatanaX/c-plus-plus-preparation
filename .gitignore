@@ -1,0 +1,8 @@
+# C++ build artifacts
+*.exe
+*.out
+*.obj
+
+# VS Code temporary files
+.vscode/
+tempCodeRunnerFile.cpp

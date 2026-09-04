@@ -112,6 +112,7 @@ On Windows PowerShell:
 ```text
 Basics/                  -> Intro practice programs
 Jump_to_leetcode/        -> Transition-style problems
+searching&sorting/       -> Searching, sorting, and array rearrangement practice
 10-35                    -> Number logic + pattern series
 43-50                    -> Function-based problems
 51-65                    -> Array and interview-style problems
