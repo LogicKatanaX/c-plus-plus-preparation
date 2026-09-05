@@ -1,22 +1,37 @@
-#include<bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
 using namespace std;
-int main(){
-    vector<int> a;
+
+int main() {
+    vector<int> numbers;
     int size;
-    cout <<"Size:";
+
+    cout << "Size: ";
     cin >> size;
-    while(size--){
-        int temp;
-        cin >> temp;
-        a.emplace_back(temp);
+
+    if (size < 0) {
+        cout << "Size must be non-negative.\n";
+        return 1;
     }
 
-    for(int i=0;i<a.size();i++){
-        auto min_it=min_element(a.begin()+i,a.end());
-        swap(a[i],*min_it);
+    numbers.reserve(size);
+    for (int index = 0; index < size; ++index) {
+        int number;
+        cin >> number;
+        numbers.push_back(number);
     }
-    cout <<"Sorted Array: \t";
-    for(int x:a){
-        cout<<x<<"\t";
+
+    for (int index = 0; index < size; ++index) {
+        auto minimum = min_element(numbers.begin() + index, numbers.end());
+        swap(numbers[index], *minimum);
     }
+
+    cout << "Sorted array: ";
+    for (int number : numbers) {
+        cout << number << ' ';
+    }
+
+    cout << '\n';
 }

@@ -86,6 +86,11 @@ The goal is simple: solve core programming problems consistently and build probl
 - Sorting algorithms with time/space complexity analysis
 - Array manipulation and rearrangement techniques
 
+### Repository Cleanup: September 5, 2026
+
+- Organized the selection sort implementation with explicit standard-library headers and clearer input/output flow.
+- Removed compiled `.exe` files from Git tracking; build artifacts remain ignored locally.
+
 ---
 
 ## Quick Start
